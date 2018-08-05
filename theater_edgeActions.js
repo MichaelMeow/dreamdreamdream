@@ -1,8 +1,8 @@
 /***********************
 * Adobe Edge Animate Composition Actions
 *
-* Edit this file with caution, being careful to preserve 
-* function signatures and comments starting with 'Edge' to maintain the 
+* Edit this file with caution, being careful to preserve
+* function signatures and comments starting with 'Edge' to maintain the
 * ability to interact with these actions from within Adobe Edge Animate
 *
 ***********************/
@@ -11,8 +11,8 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
 
    //Edge symbol: 'stage'
    (function(symbolName) {
-      
-      
+
+
       Symbol.bindSymbolAction(compId, symbolName, "creationComplete", function(sym, e) {
          // insert code to be run when the symbol is created here
          yepnope({
@@ -36,18 +36,18 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       Symbol.bindElementAction(compId, symbolName, "${_Rectangle2}", "click", function(sym, e) {
          // Navigate to a new URL in the current window
          // (replace "_self" with appropriate target attribute for a new window)
-         window.open("http://www.dreamdreamdream.org", "_self");
-         
+         window.open("index.html", "_self");
+
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "document", "compositionReady", function(sym, e) {
-         
-         
+
+
          var youtubevid = $("<iframe/>");
           sym.$("vcontainer").append(youtubevid);
-         
+
           youtubevid.attr('type','text/html');
           youtubevid.attr('width','500');
           youtubevid.attr('height','281');
@@ -60,13 +60,13 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
 
       Symbol.bindElementAction(compId, symbolName, "${_psa_button}", "click", function(sym, e) {
          jQuery('html,body').animate({scrollTop:0},500);
-         
-         
+
+
          var youtubevid = $("<iframe/>");
           sym.$("vcontainer").empty(youtubevid);
-         
+
           sym.$("vcontainer").append(youtubevid);
-         
+
           youtubevid.attr('type','text/html');
           youtubevid.attr('width','500');
           youtubevid.attr('height','281');
@@ -79,13 +79,13 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
 
       Symbol.bindElementAction(compId, symbolName, "${_truelovebutton}", "click", function(sym, e) {
          jQuery('html,body').animate({scrollTop:0},500);
-         
-         
+
+
          var youtubevid = $("<iframe/>");
           sym.$("vcontainer").empty(youtubevid);
-         
+
           sym.$("vcontainer").append(youtubevid);
-         
+
           youtubevid.attr('type','text/html');
           youtubevid.attr('width','500');
           youtubevid.attr('height','281');
@@ -98,13 +98,13 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
 
       Symbol.bindElementAction(compId, symbolName, "${_mteeriebutton}", "click", function(sym, e) {
          jQuery('html,body').animate({scrollTop:0},500);
-         
-         
+
+
          var youtubevid = $("<iframe/>");
           sym.$("vcontainer").empty(youtubevid);
-         
+
           sym.$("vcontainer").append(youtubevid);
-         
+
           youtubevid.attr('type','text/html');
           youtubevid.attr('width','500');
           youtubevid.attr('height','281');
@@ -118,13 +118,13 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       Symbol.bindElementAction(compId, symbolName, "${_Rectangle3}", "click", function(sym, e) {
          // insert code for mouse click here
          jQuery('html,body').animate({scrollTop:0},500);
-         
-         
+
+
          var youtubevid = $("<iframe/>");
           sym.$("vcontainer").empty(youtubevid);
-         
+
           sym.$("vcontainer").append(youtubevid);
-         
+
           youtubevid.attr('type','text/html');
           youtubevid.attr('width','500');
           youtubevid.attr('height','281');
@@ -137,13 +137,13 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
 
       Symbol.bindElementAction(compId, symbolName, "${_automatedmanbutton}", "click", function(sym, e) {
          jQuery('html,body').animate({scrollTop:0},500);
-         
-         
+
+
          var youtubevid = $("<iframe/>");
           sym.$("vcontainer").empty(youtubevid);
-         
+
           sym.$("vcontainer").append(youtubevid);
-         
+
           youtubevid.attr('type','text/html');
           youtubevid.attr('width','500');
           youtubevid.attr('height','281');
@@ -156,13 +156,13 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
 
       Symbol.bindElementAction(compId, symbolName, "${_pdbutton}", "click", function(sym, e) {
          jQuery('html,body').animate({scrollTop:0},500);
-         
-         
+
+
          var youtubevid = $("<iframe/>");
           sym.$("vcontainer").empty(youtubevid);
-         
+
           sym.$("vcontainer").append(youtubevid);
-         
+
           youtubevid.attr('type','text/html');
           youtubevid.attr('width','500');
           youtubevid.attr('height','281');
@@ -198,23 +198,23 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
    //Edge symbol end:'stage'
 
    //=========================================================
-   
+
    //Edge symbol: 'comingsoon'
-   (function(symbolName) {   
-   
+   (function(symbolName) {
+
    })("comingsoon");
    //Edge symbol end:'comingsoon'
 
    //=========================================================
-   
+
    //Edge symbol: 'vcontainersymbol'
-   (function(symbolName) {   
-   
+   (function(symbolName) {
+
       Symbol.bindTimelineAction(compId, symbolName, "Default Timeline", "play", function(sym, e) {
          // insert code to be run at timeline play here
          var youtubevid = $("<iframe/>");
           sym.$("vcontainer").append(youtubevid);
-         
+
           youtubevid.attr('type','text/html');
           youtubevid.attr('width','500');
           youtubevid.attr('height','281');
@@ -229,10 +229,10 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
    //Edge symbol end:'vcontainersymbol'
 
    //=========================================================
-   
+
    //Edge symbol: 'screen'
-   (function(symbolName) {   
-   
+   (function(symbolName) {
+
    })("screen");
    //Edge symbol end:'screen'
 

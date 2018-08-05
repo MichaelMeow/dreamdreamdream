@@ -1,8 +1,8 @@
 /***********************
 * Adobe Edge Animate Composition Actions
 *
-* Edit this file with caution, being careful to preserve 
-* function signatures and comments starting with 'Edge' to maintain the 
+* Edit this file with caution, being careful to preserve
+* function signatures and comments starting with 'Edge' to maintain the
 * ability to interact with these actions from within Adobe Edge Animate
 *
 ***********************/
@@ -11,19 +11,19 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
 
    //Edge symbol: 'stage'
    (function(symbolName) {
-      
-      
+
+
       Symbol.bindTimelineAction(compId, symbolName, "Default Timeline", "play", function(sym, e) {
          // insert code to be run at timeline play here
-         
+
       });
       //Edge binding end
 
-      
 
-      
 
-      
+
+
+
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 10000, function(sym, e) {
          // play the timeline from the given position (ms or label)
@@ -32,75 +32,75 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       });
       //Edge binding end
 
-      
 
-      
 
-      
 
-      
 
-      
 
-      
 
-      
 
-      
 
-      
 
-      
 
-      
 
-      
 
-      
 
-      
 
-      
 
-      
 
-      
 
-      
 
-      
 
-      
 
-      
 
-      
 
-      
 
-      
 
-      
 
-      
 
-      
 
-      
 
-      
 
-      
 
-      
 
-      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
       Symbol.bindElementAction(compId, symbolName, "${_Text3}", "click", function(sym, e) {
          // Navigate to a new URL in the current window
          // (replace "_self" with appropriate target attribute for a new window)
-         window.open("http://www.dreamdreamdream.org", "_self");
-         
+         window.open("index.html", "_self");
+
 
       });
       //Edge binding end
@@ -109,10 +109,10 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
    //Edge symbol end:'stage'
 
    //=========================================================
-   
+
    //Edge symbol: 'work'
-   (function(symbolName) {   
-   
+   (function(symbolName) {
+
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 18496, function(sym, e) {
          // play the timeline from the given position (ms or label)
          sym.play("loop");
@@ -124,11 +124,11 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
    //Edge symbol end:'work'
 
    //=========================================================
-   
+
    //Edge symbol: 'Camp'
-   (function(symbolName) {   
-   
-      
+   (function(symbolName) {
+
+
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 44737, function(sym, e) {
          // play the timeline from the given position (ms or label)
@@ -141,10 +141,10 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
    //Edge symbol end:'Camp'
 
    //=========================================================
-   
+
    //Edge symbol: 'Theater'
-   (function(symbolName) {   
-   
+   (function(symbolName) {
+
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 31682, function(sym, e) {
          // play the timeline from the given position (ms or label)
          sym.play("loop");
@@ -156,18 +156,18 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
    //Edge symbol end:'Theater'
 
    //=========================================================
-   
+
    //Edge symbol: 'Clouds'
-   (function(symbolName) {   
-   
+   (function(symbolName) {
+
    })("Clouds");
    //Edge symbol end:'Clouds'
 
    //=========================================================
-   
+
    //Edge symbol: 'nest'
-   (function(symbolName) {   
-   
+   (function(symbolName) {
+
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 33496, function(sym, e) {
          // play the timeline from the given position (ms or label)
          sym.play("loop");
@@ -179,10 +179,10 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
    //Edge symbol end:'nest'
 
    //=========================================================
-   
+
    //Edge symbol: 'birds'
-   (function(symbolName) {   
-   
+   (function(symbolName) {
+
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 3291, function(sym, e) {
          // play the timeline from the given position (ms or label)
          sym.play("loop");
@@ -194,13 +194,13 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
    //Edge symbol end:'birds'
 
    //=========================================================
-   
+
    //Edge symbol: 'shark'
-   (function(symbolName) {   
-   
+   (function(symbolName) {
+
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 8128, function(sym, e) {
          sym.play("loop");
-         
+
 
       });
       //Edge binding end
@@ -209,10 +209,10 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
    //Edge symbol end:'shark'
 
    //=========================================================
-   
+
    //Edge symbol: 'theater'
-   (function(symbolName) {   
-   
+   (function(symbolName) {
+
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 23496, function(sym, e) {
          // play the timeline from the given position (ms or label)
          sym.play("loop");
@@ -224,42 +224,42 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
    //Edge symbol end:'theater'
 
    //=========================================================
-   
+
    //Edge symbol: 'book'
-   (function(symbolName) {   
-   
+   (function(symbolName) {
+
    })("book");
    //Edge symbol end:'book'
 
    //=========================================================
-   
+
    //Edge symbol: 'campdeck'
-   (function(symbolName) {   
-   
+   (function(symbolName) {
+
    })("campdeck");
    //Edge symbol end:'campdeck'
 
    //=========================================================
-   
+
    //Edge symbol: 'camppizza'
-   (function(symbolName) {   
-   
+   (function(symbolName) {
+
    })("camppizza");
    //Edge symbol end:'camppizza'
 
    //=========================================================
-   
+
    //Edge symbol: 'theaterseats'
-   (function(symbolName) {   
-   
+   (function(symbolName) {
+
    })("theaterseats");
    //Edge symbol end:'theaterseats'
 
    //=========================================================
-   
+
    //Edge symbol: 'workinside'
-   (function(symbolName) {   
-   
+   (function(symbolName) {
+
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 1502, function(sym, e) {
          sym.stop();
 
@@ -281,7 +281,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       Symbol.bindElementAction(compId, symbolName, "${_Rectangle3}", "mouseenter", function(sym, e) {
          // play the timeline from the given position (ms or label)
          sym.play("workover");
-         
+
 
       });
       //Edge binding end
@@ -289,7 +289,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       Symbol.bindElementAction(compId, symbolName, "${_Rectangle3}", "mouseleave", function(sym, e) {
          // play the timeline from the given position (ms or label)
          sym.play("workout");
-         
+
 
       });
       //Edge binding end
@@ -298,22 +298,22 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
    //Edge symbol end:'workinside'
 
    //=========================================================
-   
+
    //Edge symbol: 'worksign'
-   (function(symbolName) {   
-   
+   (function(symbolName) {
+
    })("worksign");
    //Edge symbol end:'worksign'
 
    //=========================================================
-   
+
    //Edge symbol: 'theaterinside'
-   (function(symbolName) {   
-   
+   (function(symbolName) {
+
       Symbol.bindElementAction(compId, symbolName, "${_theater2}", "mouseover", function(sym, e) {
          // play the timeline from the given position (ms or label)
          sym.play("theaterover");
-         
+
 
       });
       //Edge binding end
@@ -321,7 +321,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       Symbol.bindElementAction(compId, symbolName, "${_theater2}", "mouseout", function(sym, e) {
          // play the timeline from the given position (ms or label)
          sym.play("theaterout");
-         
+
 
       });
       //Edge binding end
@@ -330,10 +330,10 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
    //Edge symbol end:'theaterinside'
 
    //=========================================================
-   
+
    //Edge symbol: 'sheet'
-   (function(symbolName) {   
-   
+   (function(symbolName) {
+
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 1410, function(sym, e) {
          sym.stop();
 
@@ -354,7 +354,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
 
       Symbol.bindElementAction(compId, symbolName, "${_theatersign2}", "mouseover", function(sym, e) {
          // play the timeline from the given position (ms or label)
-         
+
 
       });
       //Edge binding end
@@ -362,7 +362,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       Symbol.bindElementAction(compId, symbolName, "${_Rectangle2}", "mouseenter", function(sym, e) {
          // play the timeline from the given position (ms or label)
          sym.play("theaterover");
-         
+
 
       });
       //Edge binding end
@@ -370,7 +370,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       Symbol.bindElementAction(compId, symbolName, "${_Rectangle2}", "mouseleave", function(sym, e) {
          // play the timeline from the given position (ms or label)
          sym.play("theaterout");
-         
+
 
       });
       //Edge binding end
@@ -379,10 +379,10 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
    //Edge symbol end:'sheet'
 
    //=========================================================
-   
+
    //Edge symbol: 'campinside'
-   (function(symbolName) {   
-   
+   (function(symbolName) {
+
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 2557, function(sym, e) {
          sym.stop();
          // play the timeline from the given position (ms or label)
@@ -406,7 +406,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       Symbol.bindElementAction(compId, symbolName, "${_Rectangle4}", "mouseenter", function(sym, e) {
          // play the timeline from the given position (ms or label)
          sym.play("campover");
-         
+
 
       });
       //Edge binding end
@@ -414,7 +414,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       Symbol.bindElementAction(compId, symbolName, "${_Rectangle4}", "mouseleave", function(sym, e) {
          // play the timeline from the given position (ms or label)
          sym.play("campout");
-         
+
 
       });
       //Edge binding end
@@ -423,10 +423,10 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
    //Edge symbol end:'campinside'
 
    //=========================================================
-   
+
    //Edge symbol: 'nestinside'
-   (function(symbolName) {   
-   
+   (function(symbolName) {
+
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 890, function(sym, e) {
          sym.stop();
 
@@ -448,7 +448,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       Symbol.bindElementAction(compId, symbolName, "${_Rectangle5}", "mouseenter", function(sym, e) {
          // play the timeline from the given position (ms or label)
          sym.play("nestover");
-         
+
 
       });
       //Edge binding end
@@ -456,7 +456,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       Symbol.bindElementAction(compId, symbolName, "${_Rectangle5}", "mouseleave", function(sym, e) {
          // play the timeline from the given position (ms or label)
          sym.play("nestout");
-         
+
 
       });
       //Edge binding end
@@ -465,14 +465,14 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
    //Edge symbol end:'nestinside'
 
    //=========================================================
-   
+
    //Edge symbol: 'store'
-   (function(symbolName) {   
-   
+   (function(symbolName) {
+
       Symbol.bindElementAction(compId, symbolName, "${_store}", "click", function(sym, e) {
          // play the timeline from the given position (ms or label)
          sym.play("store");
-         
+
 
       });
          //Edge binding end
@@ -498,7 +498,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       Symbol.bindElementAction(compId, symbolName, "${_Rectangle6}", "mouseenter", function(sym, e) {
          // play the timeline from the given position (ms or label)
          sym.play("storeover");
-         
+
 
       });
       //Edge binding end
@@ -506,7 +506,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       Symbol.bindElementAction(compId, symbolName, "${_Rectangle6}", "mouseleave", function(sym, e) {
          // play the timeline from the given position (ms or label)
          sym.play("storeout");
-         
+
 
       });
       //Edge binding end
@@ -515,10 +515,10 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
    //Edge symbol end:'store'
 
    //=========================================================
-   
+
    //Edge symbol: 'sagansign'
-   (function(symbolName) {   
-   
+   (function(symbolName) {
+
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 964, function(sym, e) {
          sym.stop();
 
@@ -528,7 +528,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 2201, function(sym, e) {
          // play the timeline from the given position (ms or label)
          sym.play("loop");
-         
+
 
       });
       //Edge binding end
@@ -542,7 +542,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       Symbol.bindElementAction(compId, symbolName, "${_Rectangle8}", "mouseenter", function(sym, e) {
          // play the timeline from the given position (ms or label)
          sym.play("over");
-         
+
 
       });
       //Edge binding end
@@ -550,7 +550,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       Symbol.bindElementAction(compId, symbolName, "${_Rectangle8}", "mouseleave", function(sym, e) {
          // play the timeline from the given position (ms or label)
          sym.play("out");
-         
+
 
       });
       //Edge binding end
@@ -559,15 +559,15 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
    //Edge symbol end:'sagansign'
 
    //=========================================================
-   
+
    //Edge symbol: 'picklereveal'
-   (function(symbolName) {   
-   
+   (function(symbolName) {
+
       Symbol.bindElementAction(compId, symbolName, "${_Rectangle9}", "click", function(sym, e) {
          // Navigate to a new URL in the current window
          // (replace "_self" with appropriate target attribute for a new window)
          window.open("http://www.kickstarter.com", "_self");
-         
+
 
       });
       //Edge binding end
@@ -593,7 +593,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       Symbol.bindElementAction(compId, symbolName, "${_Rectangle9}", "mouseenter", function(sym, e) {
          // play the timeline from the given position (ms or label)
          sym.play("over");
-         
+
 
       });
       //Edge binding end
@@ -601,7 +601,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       Symbol.bindElementAction(compId, symbolName, "${_Rectangle9}", "mouseleave", function(sym, e) {
          // play the timeline from the given position (ms or label)
          sym.play("out");
-         
+
 
       });
       //Edge binding end
@@ -610,10 +610,10 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
    //Edge symbol end:'picklereveal'
 
    //=========================================================
-   
+
    //Edge symbol: 'mushies'
-   (function(symbolName) {   
-   
+   (function(symbolName) {
+
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 809, function(sym, e) {
          sym.stop();
 
@@ -636,7 +636,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       Symbol.bindElementAction(compId, symbolName, "${_Rectangle}", "mouseenter", function(sym, e) {
          // play the timeline from the given position (ms or label)
          sym.play("over");
-         
+
 
       });
       //Edge binding end
@@ -644,7 +644,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       Symbol.bindElementAction(compId, symbolName, "${_Rectangle}", "mouseleave", function(sym, e) {
          // play the timeline from the given position (ms or label)
          sym.play("out");
-         
+
 
       });
       //Edge binding end
@@ -653,10 +653,10 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
    //Edge symbol end:'mushies'
 
    //=========================================================
-   
+
    //Edge symbol: 'jets'
-   (function(symbolName) {   
-   
+   (function(symbolName) {
+
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 1204, function(sym, e) {
          // play the timeline from the given position (ms or label)
          sym.play("loop");

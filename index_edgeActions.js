@@ -89,7 +89,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
          // play the timeline from the given position (ms or label)
          // Navigate to a new URL in the current window
          // (replace "_self" with appropriate target attribute for a new window)
-         window.open("http://www.dreamdreamdream.org/contact", "_self");
+         window.open("contact.html", "_self");
 
 
 
@@ -120,7 +120,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
          // play the timeline from the given position (ms or label)
          // Navigate to a new URL in the current window
          // (replace "_self" with appropriate target attribute for a new window)
-         window.open("http://www.dreamdreamdream.org/theater", "_self");
+         window.open("theater.html", "_self");
 
 
 
@@ -143,7 +143,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
          // play the timeline from the given position (ms or label)
          // Navigate to a new URL in the current window
          // (replace "_self" with appropriate target attribute for a new window)
-         window.open("http://www.dreamdreamdream.org/institute", "_self");
+         window.open("institute.html", "_self");
 
 
 
@@ -154,7 +154,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
          // play the timeline from the given position (ms or label)
          // Navigate to a new URL in the current window
          // (replace "_self" with appropriate target attribute for a new window)
-         window.open("http://www.dreamdreamdream.org/store", "_self");
+         window.open("store.html", "_self");
 
 
       });
@@ -167,7 +167,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       Symbol.bindElementAction(compId, symbolName, "${_eventsbutton}", "click", function(sym, e) {
          // Navigate to a new URL in the current window
          // (replace "_self" with appropriate target attribute for a new window)
-         window.open("http://www.dreamdreamdream.org/events", "_self");
+         window.open("events.html", "_self");
 
 
 
@@ -177,7 +177,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       Symbol.bindElementAction(compId, symbolName, "${_mushies}", "click", function(sym, e) {
          // Navigate to a new URL in the current window
          // (replace "_self" with appropriate target attribute for a new window)
-         window.open("http://www.dreamdreamdream.org/join", "_self");
+         window.open("join.html", "_self");
 
 
       });
@@ -188,7 +188,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       Symbol.bindElementAction(compId, symbolName, "${_picklereveal}", "click", function(sym, e) {
          // Navigate to a new URL in the current window
          // (replace "_self" with appropriate target attribute for a new window)
-         window.open("http://www.kickstarter.com/projects/651896065/smores-campfire-kit", "_self");
+         window.open("", "_self");
 
 
       });
