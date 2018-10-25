@@ -1,3 +1,5 @@
+![alt text](https://github.com/michaelmeow/dreamdreamdream/raw/master/screenshot.png "Screenshot")
+
 # [DREAMDREAMDREAM](https://michaelmeow.github.io/dreamdreamdream)
 
 A website for the fictional company DREAMDREAMDREAM.
